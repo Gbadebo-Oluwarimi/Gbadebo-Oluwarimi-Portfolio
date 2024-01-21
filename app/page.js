@@ -231,9 +231,11 @@ export default function Home() {
                   Full-Stack Engineer
                 </span>
                 <div className="text-xl font-semibold pb-2">
-                  Picotel Network Solutions (Full Stack Engineer)
+                  <a href="https://picotelnigeria.com">
+                    Picotel Network Solutions (Full Stack Engineer)
+                  </a>
                 </div>
-                <span className="text-sm ">AUG, 5 2019 -- AUG, 5 2021</span>
+                <span className="text-sm ">AUG, 5 2019 -- PRESENT</span>
                 <ul className="text-sm pt-8 list-disc">
                   <li className="pb-4">
                     I commenced my journey at Picotel as an intern Network
@@ -277,9 +279,35 @@ export default function Home() {
           <div>
             <div className="text-3xl font-semibold">Some things i've built</div>
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
-            <div className="inline-block md:flex">
-              <div></div>
-              <div></div>
+            <div className="inline-block md:flex mt-20">
+              <div>
+                <Image
+                  src="/project3b.png"
+                  height={300}
+                  width={600}
+                  className="hover:bg-lightgreen"
+                />
+              </div>
+              <div className="pl-10">
+                <span className="text-lightgreen text-sm">Full Stack app</span>
+                <div className="text-4xl font-semibold">PayDate</div>
+                <div></div>
+              </div>
+            </div>
+            <div className="inline-block md:flex mt-20">
+              <div className="pl-10">
+                <span className="text-lightgreen text-sm">Full Stack app</span>
+                <div className="text-4xl font-semibold">PayDate</div>
+                <div></div>
+              </div>
+              <div>
+                <Image
+                  src="/project3b.png"
+                  height={300}
+                  width={600}
+                  className="hover:bg-lightgreen"
+                />
+              </div>
             </div>
           </div>
         </div>
