@@ -10,14 +10,13 @@ const mattermedium = localFont({ src: "../fonts/Matter-Medium.ttf" });
 export default function Home() {
   return (
     <main style={gellix11.style} className="main min-h-screen text-xl">
-      <nav className=" max-w-7xl m-auto pt-8 md:flex align-middle text-center items-center justify-between">
-        <div className="text-2xl">
-          {" "}
+      <nav className=" max-w-7xl m-auto pt-8 flex align-middle text-center items-center justify-between">
+        <div className="text-2xl  pl-4 md:p-0 ">
           Gbadebo <span className="text-lightgreen">Oluwarimi</span>
         </div>
 
         <ul
-          className="justify-between inline-block md:flex text-sm overflow-hidden w-1/3 "
+          className="justify-between hidden md:flex text-sm overflow-hidden w-1/3 "
           style={gellix11.style}
         >
           <li>About me </li>
@@ -31,32 +30,35 @@ export default function Home() {
         </button>
       </nav>
 
-      <div className="flex max-w-6xl m-auto">
+      <div className="inline-block md:flex max-w-6xl m-auto sm:pl-4">
         <div className="pt-24 ">
-          <div className="pb-6 text-sm text-gray2">
+          <div className="pb-6 text-center md:text-left text-sm text-gray2">
             Hi, My name is Rimi
-            <div className="w-20 h-1 bg-lightgreen mt-2"></div>{" "}
-          </div>
-          <div className="text-5xl" style={gellix13.style}>
-            Software Engineer, Network <br />{" "}
-            <span className="text-lightgreen">Architect</span> & System
-            Maintainer{" "}
+            <div className="flex justify-center md:inline-block w-20 h-1 bg-lightgreen mt-2"></div>
           </div>
           <div
-            className="pt-8 max-w-xl text-sm text-gray2"
+            className="text-center md:text-left text-3xl md:text-5xl"
+            style={gellix13.style}
+          >
+            Software Engineer, Network <br />
+            <span className="text-lightgreen">Architect</span> & System
+            Maintainer
+          </div>
+          <div
+            className="pt-8 max-w-xl text-center  pb-3 lg:pl-0 md:text-left text-sm text-gray2"
             style={gellix11.style}
           >
-            Im a software engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, Im focused on
-            building accessible, human-centered products at{" "}
+            Im a software engineer specializing in building and occasionally
+            designing exceptional digital experiences. Currently, Im focused on
+            building accessible, human-centered products at {""}
             <a href="https://picotelnigeria.com" className="text-lightgreen">
               Picotel Nigeria
             </a>
             .
           </div>
-          <div className="pt-14">
+          <div className="pt-14 flex justify-center  md:inline">
             <button className="text-sm p-3 border-lightgreen border rounded-sm text-lightgreen">
-              Check Out My Project
+              Download Resume
             </button>
           </div>
         </div>
@@ -68,12 +70,11 @@ export default function Home() {
       </div>
       <div className="pt-10 text-center items-center ">
         <div className="text-sm pb-5 text-lightgreen">
-          {" "}
           Technologies I Frequently Use
           <br />
           <line className="w-20 h-20 bg-lightgreen "></line>
         </div>
-        <ul class="flex items-center justify-between max-w-4xl m-auto ">
+        <ul class=" hidden px-8 md:flex flex-wrap items-center justify-between max-w-4xl m-auto ">
           <li>
             <Image
               src="/docker.png"
@@ -84,7 +85,7 @@ export default function Home() {
           </li>
           <li>
             <Image
-              src="/kubernetes.png"
+              src="/graphql.png"
               width={40}
               height={40}
               className="grayscale hover:grayscale-0 transition ease-in-out delay-150"
@@ -151,19 +152,19 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <div className="pt-20 max-w-5xl m-auto">
+      <div className="pt-20 max-w-5xl m-auto pl-4">
         <div className="flex ">
           <div className="pb-4">
             <div className="text-4xl pb-4" style={gellix13.style}>
               About Me
               <div className="w-20 h-1 bg-lightgreen mt-2"></div>
             </div>
-            <div className="max-w-xl text-lg">
+            <div className="max-w-xl text-lg ">
               I am a self-driven, career-oriented software developer
               specializing in front-end development and open-source, currently
               pursuing a bachelors degree in computer science. My expertise lies
               in building interactive web applications on the client side.
-              Primarily working with technologies like{" "}
+              Primarily working with technologies like
               <span className="text-lightgreen">
                 JavaScript, Next.js, TypeScript and Python.
               </span>
@@ -202,7 +203,7 @@ export default function Home() {
                     Intern
                   </span>
                   <div className="text-xl font-semibold pb-2">
-                    Alps Finance (Full Stack Engineer)
+                    Alps Finance -- Full Stack Engineer
                   </div>
                   <span className="text-sm ">AUG, 5 2019 -- PRESENT</span>
                   <div className="text-sm pt-4">
@@ -232,7 +233,7 @@ export default function Home() {
                 </span>
                 <div className="text-xl font-semibold pb-2">
                   <a href="https://picotelnigeria.com">
-                    Picotel Network Solutions (Full Stack Engineer)
+                    Picotel Network Solutions -- Full Stack Engineer
                   </a>
                 </div>
                 <span className="text-sm ">AUG, 5 2019 -- PRESENT</span>
@@ -277,33 +278,81 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="text-3xl font-semibold">Some things i've built</div>
+            <div className="text-3xl font-semibold">
+              Some things i've built -- Top 3
+            </div>
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
             <div className="inline-block md:flex mt-20">
-              <div>
+              <div className="h-full">
                 <Image
-                  src="/project3b.png"
-                  height={300}
+                  src="/project1.png"
+                  height={600}
                   width={600}
                   className="hover:bg-lightgreen"
                 />
               </div>
               <div className="pl-10">
                 <span className="text-lightgreen text-sm">Full Stack app</span>
-                <div className="text-4xl font-semibold">PayDate</div>
-                <div></div>
+                <div className="text-4xl font-semibold pb-5">Picotel Site</div>
+
+                <div className="text-lg max-w-2xl m-auto">
+                  I developed ideahub, one of my initial projects as a
+                  developer, to offer a local KANBAN solution for idea
+                  management among developers. Using technologies like JWT for
+                  authentication and following the MVC architecture, I gained
+                  hands-on experience in creating a secure and structured
+                  application. Leveraging MongoDB and Express.js, I ensured
+                  efficient data management and a responsive user interface.
+                  <div className="pt-5">
+                    <span className="text-lightgreen font-semibold">
+                      Tools and Technologies Used
+                    </span>
+                    <ul className="flex  text-lightgreen">
+                      <li className="mr-3">ReactJs</li>
+                      <li className="mr-3">Tailwindcss</li>
+                      <li className="mr-3">Redux</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex"></div>
+                </div>
               </div>
             </div>
             <div className="inline-block md:flex mt-20">
-              <div className="pl-10">
+              <div className="">
                 <span className="text-lightgreen text-sm">Full Stack app</span>
-                <div className="text-4xl font-semibold">PayDate</div>
-                <div></div>
+                <div className="text-4xl font-semibold pb-5">Ideahub</div>
+
+                <div className="text-lg max-w-2xl m-auto">
+                  I developed ideahub, one of my initial projects as a
+                  developer, to offer a local KANBAN solution for idea
+                  management among developers. Using technologies like JWT for
+                  authentication and following the MVC architecture, I gained
+                  hands-on experience in creating a secure and structured
+                  application. Leveraging MongoDB and Express.js, I ensured
+                  efficient data management and a responsive user interface.
+                  <div className="pt-5">
+                    <span className="text-lightgreen font-semibold">
+                      Tools and Technologies Used
+                    </span>
+                    <ul className="flex justify-between text-lightgreen">
+                      <li>Express Js</li>
+                      <li>JWT -- Auth</li>
+                      <li>MongoDB</li>
+                      <li>React</li>
+                      <li>NodeJs</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex"></div>
+                </div>
               </div>
-              <div>
+              <div className="">
                 <Image
-                  src="/project3b.png"
-                  height={300}
+                  src="/project.png"
+                  height={500}
                   width={600}
                   className="hover:bg-lightgreen"
                 />
@@ -311,6 +360,28 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="pt-14 flex justify-center">
+        <button className="text-sm px-6 py-3 border-lightgreen border rounded-sm text-lightgreen">
+          View More
+        </button>
+      </div>
+      <div className="text-center py-52">
+        <span className="text-lightgreen text-sm">Get in touch with me</span>
+        <div className="text-6xl font-semibold text-center">Get in Touch</div>
+        <div className="flex justify-center max-w-xl m-auto pt-3 px-4">
+          Feel free to reach out if you have any questions Ill respond as soon
+          as possible
+        </div>
+        <div className="flex justify-center pt-10">
+          <button className="text-sm px-6 py-3 border-lightgreen border rounded-sm text-lightgreen">
+            Get in Touch
+          </button>
+        </div>
+      </div>
+      <div className="flex justify-center text-sm pb-4">
+        Designed and Built By
+        <span className="text-lightgreen"> Gbadebo Oluwarimi</span>
       </div>
     </main>
   );
