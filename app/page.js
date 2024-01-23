@@ -161,17 +161,19 @@ export default function Home() {
             </div>
             <div className="max-w-xl text-lg ">
               I am a self-driven, career-oriented software developer
-              specializing in front-end development and open-source, currently
-              pursuing a bachelors degree in computer science. My expertise lies
-              in building interactive web applications on the client side.
+              specializing in front and Back-end development and open-source,
+              currently pursuing a bachelors degree in Electrical Electronics
+              Engineering. My expertise lies in building interactive web and
+              Mobile applications both on the Client Side and Server Side.
               Primarily working with technologies like
               <span className="text-lightgreen">
-                JavaScript, Next.js, TypeScript and Python.
+                JavaScript, Next.js, TypeScript Graphql And Apollo Client e.t.c
               </span>
               <div className="pt-4">
                 My main focus these days is building accessible, inclusive
-                products and digital experiences at Upstatement for a variety of
-                clients.
+                products and digital experiences at{" "}
+                <span className="text-lightgreen">Picotel</span> for a variety
+                of clients.
               </div>
               <div className="pt-10 text-lightgreen font-semibold">
                 Read more
@@ -257,7 +259,7 @@ export default function Home() {
                     reminder system, demonstrating both technical prowess and
                     practical contributions to enhance company operations. This
                     aligns with my commitment to advancing both my skills and
-                    the organization's technological capabilities.
+                    the organizations technological capabilities.
                   </li>
                   <li className="pb-4">
                     Through my software contributions, we achieved operational
@@ -279,7 +281,7 @@ export default function Home() {
           </div>
           <div>
             <div className="text-3xl font-semibold">
-              Some things i've built -- Top 3
+              Some things ive built -- Top 3
             </div>
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
             <div className="inline-block md:flex mt-20">
@@ -325,13 +327,13 @@ export default function Home() {
                 <div className="text-4xl font-semibold pb-5">Ideahub</div>
 
                 <div className="text-lg max-w-2xl m-auto">
-                  I developed ideahub, one of my initial projects as a
-                  developer, to offer a local KANBAN solution for idea
-                  management among developers. Using technologies like JWT for
-                  authentication and following the MVC architecture, I gained
-                  hands-on experience in creating a secure and structured
-                  application. Leveraging MongoDB and Express.js, I ensured
-                  efficient data management and a responsive user interface.
+                  I developed ideahub one of my initial projects as a developer
+                  to offer a local KANBAN solution for idea management among
+                  developers. Using technologies like JWT for authentication and
+                  following the MVC architecture, I gained hands-on experience
+                  in creating a secure and structured application. Leveraging
+                  MongoDB and Express.js, I ensured efficient data management
+                  and a responsive user interface.
                   <div className="pt-5">
                     <span className="text-lightgreen font-semibold">
                       Tools and Technologies Used
