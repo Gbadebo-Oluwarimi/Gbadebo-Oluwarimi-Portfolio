@@ -9,7 +9,10 @@ const mattermedium = localFont({ src: "../fonts/Matter-Medium.ttf" });
 
 export default function Home() {
   return (
-    <main style={gellix11.style} className="main min-h-screen text-xl">
+    <main
+      style={gellix11.style}
+      className="main min-h-screen text-xl overflow-hidden"
+    >
       <nav className=" max-w-7xl m-auto pt-8 flex align-middle text-center items-center justify-between">
         <div className="text-2xl  pl-4 md:p-0 ">
           Gbadebo <span className="text-lightgreen">Oluwarimi</span>
@@ -30,11 +33,11 @@ export default function Home() {
         </button>
       </nav>
 
-      <div className="inline-block md:flex max-w-6xl m-auto sm:pl-4">
+      <div className="inline-block md:flex max-w-7xl m-auto sm:pl-4">
         <div className="pt-24 ">
           <div className="pb-6 text-center md:text-left text-sm text-gray2">
             Hi, My name is Rimi
-            <div className="flex justify-center md:inline-block w-20 h-1 bg-lightgreen mt-2"></div>
+            <div className="   w-20 h-1 bg-lightgreen mt-2"></div>
           </div>
           <div
             className="text-center md:text-left text-3xl md:text-5xl"
@@ -45,7 +48,7 @@ export default function Home() {
             Maintainer
           </div>
           <div
-            className="pt-8 max-w-xl text-center  pb-3 lg:pl-0 md:text-left text-sm text-gray2"
+            className="pt-8 max-w-xl text-center  pb-5 lg:pl-0 md:text-left text-sm text-gray2"
             style={gellix11.style}
           >
             Im a software engineer specializing in building and occasionally
@@ -63,9 +66,9 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-20">
-          <div className="px-20">
+          {/* <div className="px-20">
             <Image src="./block.svg" width={350} height={350} />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="pt-10 text-center items-center ">
@@ -152,7 +155,7 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <div className="pt-20 max-w-5xl m-auto pl-4">
+      <div className="pt-20 max-w-6xl m-auto pl-4">
         <div className="flex ">
           <div className="pb-4">
             <div className="text-4xl pb-4" style={gellix13.style}>
@@ -181,7 +184,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pt-20 max-w-5xl m-auto">
+        <div className="pt-20 max-w-8xl m-auto">
           <div className="text-4xl pb-4 " style={gellix13.style}>
             Work Experience
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
@@ -280,84 +283,70 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="text-3xl font-semibold">
-              Some things ive built -- Top 3
+            <div className="text-3xl font-semibold mt-20">
+              Some things ive built -- Top 5
             </div>
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
-            <div className="inline-block md:flex mt-20">
-              <div className="h-full">
-                <Image
-                  src="/project1.png"
-                  height={600}
-                  width={600}
-                  className="hover:bg-lightgreen"
-                />
-              </div>
-              <div className="pl-10">
-                <span className="text-lightgreen text-sm">Full Stack app</span>
-                <div className="text-4xl font-semibold pb-5">Picotel Site</div>
-
-                <div className="text-lg max-w-2xl m-auto">
-                  I developed ideahub, one of my initial projects as a
-                  developer, to offer a local KANBAN solution for idea
-                  management among developers. Using technologies like JWT for
-                  authentication and following the MVC architecture, I gained
-                  hands-on experience in creating a secure and structured
-                  application. Leveraging MongoDB and Express.js, I ensured
-                  efficient data management and a responsive user interface.
-                  <div className="pt-5">
-                    <span className="text-lightgreen font-semibold">
-                      Tools and Technologies Used
+            {/* Section for List of Projects */}
+            <div className="inline-block md:grid grid-cols-2 md:gap-4 ">
+              <div className="inline-block mt-10 w-full">
+                <div className="flex mx-5 ">
+                  <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
+                    01
+                  </div>
+                  <div>
+                    <span className="text-lightgreen text-sm">
+                      Kanban Like Application
                     </span>
-                    <ul className="flex  text-lightgreen">
-                      <li className="mr-3">ReactJs</li>
-                      <li className="mr-3">Tailwindcss</li>
-                      <li className="mr-3">Redux</li>
-                    </ul>
+                    <div className="text-3xl font-semibold">Ideahub</div>
+                    <div className="text-lg tracking-tighter mt-5">
+                      I crafted a personalized Kanban app to manage and track my
+                      ideas, addressing the challenge of unfinished projects.
+                      This tool reflects my commitment to continuous
+                      improvement, and ironically, I'm still fine-tuning it for
+                      enhanced functionality.
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <div className="flex"></div>
-                </div>
-              </div>
-            </div>
-            <div className="inline-block md:flex mt-20">
-              <div className="">
-                <span className="text-lightgreen text-sm">Full Stack app</span>
-                <div className="text-4xl font-semibold pb-5">Ideahub</div>
-
-                <div className="text-lg max-w-2xl m-auto">
-                  I developed ideahub one of my initial projects as a developer
-                  to offer a local KANBAN solution for idea management among
-                  developers. Using technologies like JWT for authentication and
-                  following the MVC architecture, I gained hands-on experience
-                  in creating a secure and structured application. Leveraging
-                  MongoDB and Express.js, I ensured efficient data management
-                  and a responsive user interface.
-                  <div className="pt-5">
-                    <span className="text-lightgreen font-semibold">
-                      Tools and Technologies Used
+                <div className="flex mx-5 my-10 ">
+                  <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
+                    03
+                  </div>
+                  <div>
+                    <span className="text-lightgreen text-sm">
+                      Kanban Like Application
                     </span>
-                    <ul className="flex justify-between text-lightgreen">
-                      <li>Express Js</li>
-                      <li>JWT -- Auth</li>
-                      <li>MongoDB</li>
-                      <li>React</li>
-                      <li>NodeJs</li>
-                    </ul>
+                    <div className="text-3xl font-semibold">Ideahub</div>
+                    <div className="text-lg tracking-tighter mt-5">
+                      I crafted a personalized Kanban app to manage and track my
+                      ideas, addressing the challenge of unfinished projects.
+                      This tool reflects my commitment to continuous
+                      improvement, and ironically, I'm still fine-tuning it for
+                      enhanced functionality.
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <div className="flex"></div>
-                </div>
               </div>
-              <div className="">
-                <Image
-                  src="/project.png"
-                  height={500}
-                  width={600}
-                  className="hover:bg-lightgreen"
-                />
+
+              <div className="inline-block mt-10 ">
+                <div className="flex mx-5 w-full">
+                  <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
+                    02
+                  </div>
+                  <div>
+                    <span className="text-lightgreen text-sm">
+                      Website Revamp and Inhouse-Systems
+                    </span>
+                    <div className="text-3xl font-semibold">Picotel</div>
+                    <div className="text-lg tracking-tighter mt-5 overflow-hidden">
+                      At Picotel Network Solutions, I started as a Network
+                      Engineer and later became a Full Stack Engineer. I
+                      revamped the website, boosting customer acquisition and
+                      retention. I also developed an in-house system for
+                      managing client invoices and due date reminders
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -372,8 +361,8 @@ export default function Home() {
         <span className="text-lightgreen text-sm">Get in touch with me</span>
         <div className="text-6xl font-semibold text-center">Get in Touch</div>
         <div className="flex justify-center max-w-xl m-auto pt-3 px-4">
-          Feel free to reach out if you have any questions Ill respond as soon
-          as possible
+          Feel free to reach out if you have any questions I{"'"}ll respond as
+          soon as possible
         </div>
         <div className="flex justify-center pt-10">
           <button className="text-sm px-6 py-3 border-lightgreen border rounded-sm text-lightgreen">
@@ -383,7 +372,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center text-sm pb-4">
         Designed and Built By
-        <span className="text-lightgreen"> Gbadebo Oluwarimi</span>
+        <span className="text-lightgreen"> {"--"}Gbadebo Oluwarimi</span>
       </div>
     </main>
   );
