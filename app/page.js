@@ -299,52 +299,166 @@ export default function Home() {
                       Kanban Like Application
                     </span>
                     <div className="text-3xl font-semibold">Ideahub</div>
-                    <div className="text-lg tracking-tighter mt-5">
+                    <div
+                      className="text-lg tracking-tighter mt-5"
+                      style={mattermedium.style}
+                    >
                       I crafted a personalized Kanban app to manage and track my
                       ideas, addressing the challenge of unfinished projects.
                       This tool reflects my commitment to continuous
                       improvement, and ironically, I'm still fine-tuning it for
                       enhanced functionality.
                     </div>
+                    <ul className="flex text-sm text-lightgreen mt-5">
+                      <li className="mr-2">Reactjs</li>
+                      <li className="mr-2">Redux</li>
+                      <li className="mr-2">Nodejs</li>
+                      <li className="mr-2">MongoDB</li>
+                      <a href="https://github.com/Gbadebo-Oluwarimi/ideahub">
+                        <li className="mr-2 text-lightgreen flex justify-center underline">
+                          Github Link{" "}
+                          <span className="flex justify-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-3 h-3 text-lightgreen"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                              />
+                            </svg>
+                          </span>
+                        </li>
+                      </a>
+                    </ul>
                   </div>
                 </div>
                 <div className="flex mx-5 my-10 ">
+                  <div className="text-md md:text-5xl text-lightgreen font-sem1ibold mr-8 md:mr-16">
+                    02
+                  </div>
+                  <div>
+                    <span className="text-lightgreen text-sm">
+                      Website Revamp
+                    </span>
+                    <div className="text-3xl font-semibold">Bitsniper</div>
+                    <div
+                      className="text-lg tracking-tighter mt-5"
+                      style={mattermedium.style}
+                    >
+                      I played a crucial role in revamping Bitsniper's website
+                      to cater to the Web 3 gaming audience. The redesign
+                      focused on creating a visually appealing and engaging
+                      experience that aligns seamlessly with the evolving gaming
+                      landscape and the preferences of the target audience.
+                    </div>
+                    <ul className="flex text-sm text-lightgreen mt-5">
+                      <li className="mr-2">NextJs</li>
+                      <li className="mr-2"></li>
+                      <a href="https://bitsniper.vercel.app">
+                        <li className="mr-2 text-lightgreen flex justify-center underline">
+                          v1-Demo Site link{" "}
+                          <span className="flex justify-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-3 h-3 text-lightgreen"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                              />
+                            </svg>
+                          </span>
+                        </li>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="inline-block mt-10 w-full">
+                <div className="flex mx-5 ">
                   <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
                     03
                   </div>
                   <div>
                     <span className="text-lightgreen text-sm">
-                      Kanban Like Application
+                      WebSite Revamp and Building In-house-Systems
                     </span>
-                    <div className="text-3xl font-semibold">Ideahub</div>
-                    <div className="text-lg tracking-tighter mt-5">
-                      I crafted a personalized Kanban app to manage and track my
-                      ideas, addressing the challenge of unfinished projects.
-                      This tool reflects my commitment to continuous
-                      improvement, and ironically, I'm still fine-tuning it for
-                      enhanced functionality.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="inline-block mt-10 ">
-                <div className="flex mx-5 w-full">
-                  <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
-                    02
-                  </div>
-                  <div>
-                    <span className="text-lightgreen text-sm">
-                      Website Revamp and Inhouse-Systems
-                    </span>
-                    <div className="text-3xl font-semibold">Picotel</div>
-                    <div className="text-lg tracking-tighter mt-5 overflow-hidden">
+                    <div className="text-3xl font-semibold">Picotel </div>
+                    <div
+                      className="text-lg tracking-tighter mt-5"
+                      style={mattermedium.style}
+                    >
                       At Picotel Network Solutions, I started as a Network
                       Engineer and later became a Full Stack Engineer. I
                       revamped the website, boosting customer acquisition and
                       retention. I also developed an in-house system for
-                      managing client invoices and due date reminders
+                      managing client invoices and due date reminders.
                     </div>
+                    <ul className="flex text-sm text-lightgreen mt-5">
+                      <li className="mr-2">Reactjs</li>
+                      <li className="mr-2">Redux</li>
+                      <li className="mr-2">Nodejs</li>
+                      <a href="https://picotelnigeria.com">
+                        <li className="mr-2 text-lightgreen flex justify-center underline">
+                          Official Site link{" "}
+                          <span className="flex justify-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-3 h-3 text-lightgreen"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                              />
+                            </svg>
+                          </span>
+                        </li>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+                <div className="flex mx-5 my-10 ">
+                  <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
+                    04
+                  </div>
+                  <div>
+                    <span className="text-lightgreen text-sm">
+                      Building And Deploying
+                    </span>
+                    <div className="text-3xl font-semibold">The Forum</div>
+                    <div
+                      className="text-lg tracking-tighter mt-5"
+                      style={mattermedium.style}
+                    >
+                      I assisted with backend development at a startup,
+                      deploying scalable systems and optimizing algorithms for
+                      quick information access. This experience deepened my
+                      knowledge of data structures, algorithms, and system
+                      design. Although the startup hasn't officially launched,
+                      it has been a valuable learning opportunity for me.nce.
+                    </div>
+                    <ul className="flex text-sm text-lightgreen mt-5">
+                      <li className="mr-2">Scalable Systems</li>
+                      <li className="mr-2">System Architecture</li>
+                      <li className="mr-2">Data structures and algorithms</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -353,9 +467,12 @@ export default function Home() {
         </div>
       </div>
       <div className="pt-14 flex justify-center">
-        <button className="text-sm px-6 py-3 border-lightgreen border rounded-sm text-lightgreen">
-          View More
-        </button>
+        <a href="https://github.com/gbadebo-oluwarimi">
+          {" "}
+          <button className="text-sm px-6 py-3 border-lightgreen border rounded-sm text-lightgreen">
+            View More
+          </button>
+        </a>
       </div>
       <div className="text-center py-52">
         <span className="text-lightgreen text-sm">Get in touch with me</span>
