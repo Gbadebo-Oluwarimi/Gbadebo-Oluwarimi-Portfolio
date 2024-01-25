@@ -351,11 +351,11 @@ export default function Home() {
                       className="text-lg tracking-tighter mt-5"
                       style={mattermedium.style}
                     >
-                      I played a crucial role in revamping Bitsniper's website
-                      to cater to the Web 3 gaming audience. The redesign
-                      focused on creating a visually appealing and engaging
-                      experience that aligns seamlessly with the evolving gaming
-                      landscape and the preferences of the target audience.
+                      I played a crucial role in revamping Bitsnipers website to
+                      cater to the Web 3 gaming audience. The redesign focused
+                      on creating a visually appealing and engaging experience
+                      that aligns seamlessly with the evolving gaming landscape
+                      and the preferences of the target audience.
                     </div>
                     <ul className="flex text-sm text-lightgreen mt-5">
                       <li className="mr-2">NextJs</li>
