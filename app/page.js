@@ -1,20 +1,27 @@
 "use client";
-
+import { useEffect } from "react";
 import Image from "next/image";
 import localFont from "next/font/local";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const gellix11 = localFont({ src: "../fonts/gellix-11.ttf" });
 const gellix13 = localFont({ src: "../fonts/gellix-13.ttf" });
 const mattermedium = localFont({ src: "../fonts/Matter-Medium.ttf" });
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+      once: false,
+    });
+  }, []);
   return (
     <main
       style={gellix11.style}
       className="main min-h-screen text-xl overflow-hidden"
     >
       <nav className=" max-w-7xl m-auto pt-8 flex align-middle text-center items-center justify-between">
-        <div className="text-2xl  pl-4 md:p-0 ">
+        <div data-aos="fade-up" className="text-2xl  pl-4 md:p-0 ">
           Gbadebo <span className="text-lightgreen">Oluwarimi</span>
         </div>
 
@@ -34,14 +41,14 @@ export default function Home() {
       </nav>
 
       <div className="inline-block md:flex max-w-7xl m-auto sm:pl-4">
-        <div className="pt-24 ">
+        <div className="pt-24 " data-aos="fade-up" data-aos-duration="2000">
           <div className="pb-6 text-center md:text-left text-sm text-gray2">
             Hi, My name is Rimi
             <div className="   w-20 h-1 bg-lightgreen mt-2"></div>
           </div>
           <div
-            className="text-center md:text-left text-3xl md:text-5xl"
-            style={gellix13.style}
+            className="text-center md:text-left text-3xl md:text-6xl"
+            style={mattermedium.style}
           >
             Software Engineer, Network <br />
             <span className="text-lightgreen">Architect</span> & System
@@ -51,9 +58,10 @@ export default function Home() {
             className="pt-8 max-w-xl text-center  pb-5 lg:pl-0 md:text-left text-sm text-gray2"
             style={gellix11.style}
           >
-            Im a software engineer specializing in building and occasionally
-            designing exceptional digital experiences. Currently, Im focused on
-            building accessible, human-centered products at {""}
+            As a dedicated software architect, I specialize in crafting and
+            occasionally reimagining exceptional digital interfaces. My current
+            endeavor involves channeling my expertise towards the creation of
+            accessible, user-centric solutions at {""}
             <a href="https://picotelnigeria.com" className="text-lightgreen">
               Picotel Nigeria
             </a>
@@ -71,7 +79,11 @@ export default function Home() {
           </div> */}
         </div>
       </div>
-      <div className="pt-10 text-center items-center ">
+      <div
+        className="pt-10 text-center items-center "
+        data-aos="fade-up"
+        data-aos-duration="4000"
+      >
         <div className="text-sm pb-5 text-lightgreen">
           Technologies I Frequently Use
           <br />
@@ -156,19 +168,21 @@ export default function Home() {
         </ul>
       </div>
       <div className="pt-20 max-w-6xl m-auto pl-4">
-        <div className="flex ">
+        <div className=" block md:flex gap-6">
           <div className="pb-4">
             <div className="text-4xl pb-4" style={gellix13.style}>
               About Me
               <div className="w-20 h-1 bg-lightgreen mt-2"></div>
             </div>
             <div className="max-w-xl text-lg ">
-              I am a self-driven, career-oriented software developer
-              specializing in front and Back-end development and open-source,
-              currently pursuing a bachelors degree in Electrical Electronics
-              Engineering. My expertise lies in building interactive web and
-              Mobile applications both on the Client Side and Server Side.
-              Primarily working with technologies like
+              As a motivated and career-focused software engineer, I excel in
+              both front-end and back-end development, with a particular
+              interest in open-source technologies. Currently, I’m advancing my
+              knowledge by pursuing a bachelor’s degree in Electrical
+              Electronics Engineering. My forte lies in constructing dynamic web
+              and mobile applications, with a balanced focus on both client-side
+              and server-side technologies. I primarily engage with a diverse
+              range of cutting-edge technologies to deliver robust solutions.
               <span className="text-lightgreen">
                 JavaScript, Next.js, TypeScript Graphql And Apollo Client e.t.c
               </span>
@@ -182,6 +196,14 @@ export default function Home() {
                 Read more
               </div>
             </div>
+          </div>
+          <div className="bg-red-200 w-1/2">
+            <Image
+              src="/rimi1.jpg"
+              alt="Rimi Animated Profile"
+              width={200}
+              height={200}
+            />
           </div>
         </div>
         <div className="pt-20 max-w-8xl m-auto">
