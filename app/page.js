@@ -27,6 +27,7 @@ export default function Home() {
 
         <ul
           className="justify-between hidden md:flex text-sm overflow-hidden w-1/3 "
+          data-aos="fade-up"
           style={gellix11.style}
         >
           <li>About me </li>
@@ -35,7 +36,11 @@ export default function Home() {
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-        <button style={gellix11.style} className="text-sm p-3 ">
+        <button
+          style={gellix11.style}
+          className="text-sm p-3 "
+          data-aos="fade-up"
+        >
           Resume
         </button>
       </nav>
@@ -58,10 +63,10 @@ export default function Home() {
             className="pt-8 max-w-xl text-center  pb-5 lg:pl-0 md:text-left text-sm text-gray2"
             style={gellix11.style}
           >
-            As a dedicated software architect, I specialize in crafting and
-            occasionally reimagining exceptional digital interfaces. My current
-            endeavor involves channeling my expertise towards the creation of
-            accessible, user-centric solutions at {""}
+            As a committed backend engineer, I excel in building and sometimes
+            redefining outstanding digital infrastructures. My current pursuit
+            involves leveraging my skills to develop efficient, user-focused
+            solutions at {""}
             <a href="https://picotelnigeria.com" className="text-lightgreen">
               Picotel Nigeria
             </a>
@@ -168,8 +173,8 @@ export default function Home() {
         </ul>
       </div>
       <div className="pt-20 max-w-6xl m-auto pl-4">
-        <div className=" block md:flex gap-6">
-          <div className="pb-4">
+        <div className=" block md:flex gap-20">
+          <div className="pb-4" data-aos="fade-left">
             <div className="text-4xl pb-4" style={gellix13.style}>
               About Me
               <div className="w-20 h-1 bg-lightgreen mt-2"></div>
@@ -177,18 +182,22 @@ export default function Home() {
             <div className="max-w-xl text-lg ">
               As a motivated and career-focused software engineer, I excel in
               both front-end and back-end development, with a particular
-              interest in open-source technologies. Currently, I’m advancing my
-              knowledge by pursuing a bachelor’s degree in Electrical
-              Electronics Engineering. My forte lies in constructing dynamic web
-              and mobile applications, with a balanced focus on both client-side
-              and server-side technologies. I primarily engage with a diverse
-              range of cutting-edge technologies to deliver robust solutions.
+              interest in open-source technologies. Currently, Im advancing my
+              knowledge by pursuing a bachelors degree in Electrical Electronics
+              Engineering. My forte lies in constructing dynamic web and mobile
+              applications, and Digital infrastructures with a balanced focus on
+              both client-side and server-side technologies. I primarily engage
+              with a diverse range of cutting-edge technologies to deliver
+              robust solutions.
               <span className="text-lightgreen">
                 JavaScript, Next.js, TypeScript Graphql And Apollo Client e.t.c
               </span>
               <div className="pt-4">
-                My main focus these days is building accessible, inclusive
-                products and digital experiences at{" "}
+                As a Backend Developer at Picotel, I&apos;m focused on building
+                scalable, inclusive solutions to ensure optimal digital
+                experiences for our diverse clientele. My role involves
+                anticipating future needs for performance and scalability,
+                ensuring the success of our products at {""}
                 <span className="text-lightgreen">Picotel</span> for a variety
                 of clients.
               </div>
@@ -197,12 +206,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-red-200 w-1/2">
+          <div className=" ">
             <Image
-              src="/rimi1.jpg"
-              alt="Rimi Animated Profile"
-              width={200}
-              height={200}
+              src="/block.svg"
+              alt="Blocks"
+              width={500}
+              height={500}
+              className="md:mt-20"
+              data-aos="fade-right"
             />
           </div>
         </div>
@@ -212,7 +223,7 @@ export default function Home() {
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
           </div>
           <div className="pt-10">
-            <div className="flex">
+            <div className="flex" data-aos="fade-right">
               <div className="flex max-w-3xl m-auto">
                 <div className=" inline-block items-center justify-center text-center">
                   <Image
@@ -237,8 +248,7 @@ export default function Home() {
                     Revitalized Alps Finance website, elevating standards and
                     significantly increasing user retention. Acquired valuable
                     Web 3 insights, showcasing adaptability and a keen grasp of
-                    innovative technologies. Ready to bring this expertise and
-                    enthusiasm to your team
+                    innovative technologies.
                   </div>
                 </div>
               </div>
@@ -254,51 +264,54 @@ export default function Home() {
                 />
                 <div className="border-l border-lightgreen h-4/5 mt-3 ml-9" />
               </div>
-              <div className="px-4">
+              <div className="px-4" data-aos="fade-left">
                 <span className="text-lightgreen text-sm font-semibold">
-                  Full-Stack Engineer
+                  Sodftware Engineer
                 </span>
                 <div className="text-xl font-semibold pb-2">
                   <a href="https://picotelnigeria.com">
                     Picotel Network Solutions -- Full Stack Engineer
                   </a>
                 </div>
-                <span className="text-sm ">AUG, 5 2019 -- PRESENT</span>
+                <span className="text-sm ">AUG, 5 2020 -- PRESENT</span>
                 <ul className="text-sm pt-8 list-disc">
                   <li className="pb-4">
-                    I commenced my journey at Picotel as an intern Network
-                    Engineer, demonstrating proficiency that led to my
-                    transition to a Full Stack Engineer. During my tenure, I
-                    spearheaded the development of in-house systems, showcasing
-                    my ability to contribute strategically.
+                    I began my career as a Junior Network Engineer, where I was
+                    primarily responsible for the reconfiguration of existing
+                    network designs to align with the company&apos;s standards.
+                    I proficiently used tools such as WinBox for the
+                    configuration of Mikrotik Routers, Ubiquity, and Cambium
                   </li>
                   <li className="pb-4">
-                    Recognizing my dedication and accomplishments, I was
-                    promoted to a senior role within the Full Stack Development
-                    team. This progression underscores my commitment to
-                    continuous growth and my capacity to deliver impactful
-                    solutions within a professional setting.
+                    In light of my technical prowess and knack for
+                    problem-solving, I quickly transitioned into the role of
+                    Junior Software Developer. This move was prompted by my
+                    successful development of a bandwidth throttling script
+                    using BASH.
                   </li>
                   <li className="pb-4">
-                    Notably, I developed an in-house invoice generator and
-                    reminder system, demonstrating both technical prowess and
-                    practical contributions to enhance company operations. This
-                    aligns with my commitment to advancing both my skills and
-                    the organizations technological capabilities.
+                    I designed and implemented scalable APIs that streamlined
+                    the management of our in-house systems. These APIs
+                    simplified the deployment process, significantly increasing
+                    our deployment throughput. This not only enhanced our
+                    operational efficiency but also reduced downtime during
+                    updates by 45%, ensuring seamless user experience.
                   </li>
                   <li className="pb-4">
-                    Through my software contributions, we achieved operational
-                    excellence, enabling a 20% company expansion in 2022. The
-                    impact on service quality and efficiency showcases the
-                    tangible results of my work.
+                    Leveraging technologies such as GraphQL query, TypeScript,
+                    and AWS Cloud implementation and deployment, my software
+                    contributions led to operational excellence. This resulted
+                    in a 20% growth in company revenue, transitioning from a
+                    six-figure to a seven-figure revenue generating company in
+                    2022.
                   </li>
                   <li className="pb-4">
-                    Simultaneously, our user retention time on the site saw a
-                    significant boost, increasing by 15% in the same month.
-                    <br />
-                    Recognizing my dedication and accomplishments, I was
-                    promoted to a senior role within the Full Stack Development
-                    team
+                    In recognition of my dedication and hard work, I was awarded
+                    a scholarship for a professional certification of my choice.
+                    I chose to pursue the AWS Certified Cloud Practitioner (CCP)
+                    certification, which I successfully obtained. Currently, I
+                    am preparing for the AWS DevOps and AWS Solutions Architect
+                    - Associate (SAA) certifications
                   </li>
                 </ul>
               </div>
@@ -312,7 +325,11 @@ export default function Home() {
             {/* Section for List of Projects */}
             <div className="inline-block md:grid grid-cols-2 md:gap-4 ">
               <div className="inline-block mt-10 w-full">
-                <div className="flex mx-5 ">
+                <div
+                  className="flex mx-5 "
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                >
                   <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
                     01
                   </div>
@@ -328,8 +345,8 @@ export default function Home() {
                       I crafted a personalized Kanban app to manage and track my
                       ideas, addressing the challenge of unfinished projects.
                       This tool reflects my commitment to continuous
-                      improvement, and ironically, I'm still fine-tuning it for
-                      enhanced functionality.
+                      improvement, and ironically, I&apos;m still fine-tuning it
+                      for enhanced functionality.
                     </div>
                     <ul className="flex text-sm text-lightgreen mt-5">
                       <li className="mr-2">Reactjs</li>
@@ -360,7 +377,11 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <div className="flex mx-5 my-10 ">
+                <div
+                  className="flex mx-5 my-10 "
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                >
                   <div className="text-md md:text-5xl text-lightgreen font-sem1ibold mr-8 md:mr-16">
                     02
                   </div>
@@ -409,7 +430,11 @@ export default function Home() {
               </div>
 
               <div className="inline-block mt-10 w-full">
-                <div className="flex mx-5 ">
+                <div
+                  className="flex mx-5 "
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                >
                   <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
                     03
                   </div>
@@ -456,7 +481,11 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <div className="flex mx-5 my-10 ">
+                <div
+                  className="flex mx-5 my-10 "
+                  data-aos="fade-down"
+                  data-aos-duration="5000"
+                >
                   <div className="text-md md:text-5xl text-lightgreen font-semibold mr-8 md:mr-16">
                     04
                   </div>
@@ -496,11 +525,11 @@ export default function Home() {
           </button>
         </a>
       </div>
-      <div className="text-center py-52">
+      <div className="text-center py-52" data-aos="fade-up">
         <span className="text-lightgreen text-sm">Get in touch with me</span>
         <div className="text-6xl font-semibold text-center">Get in Touch</div>
         <div className="flex justify-center max-w-xl m-auto pt-3 px-4">
-          Feel free to reach out if you have any questions I{"'"}ll respond as
+          Feel free to reach out if you have any questions I&apos;ll respond as
           soon as possible
         </div>
         <div className="flex justify-center pt-10">
