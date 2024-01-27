@@ -502,8 +502,9 @@ export default function Home() {
                       deploying scalable systems and optimizing algorithms for
                       quick information access. This experience deepened my
                       knowledge of data structures, algorithms, and system
-                      design. Although the startup hasn't officially launched,
-                      it has been a valuable learning opportunity for me.nce.
+                      design. Although the startup hasn&apos;t officially
+                      launched, it has been a valuable learning opportunity for
+                      me.
                     </div>
                     <ul className="flex text-sm text-lightgreen mt-5">
                       <li className="mr-2">Scalable Systems</li>
