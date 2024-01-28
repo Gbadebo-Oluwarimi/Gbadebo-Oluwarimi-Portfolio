@@ -33,7 +33,7 @@ export default function Home() {
         </button>
       </nav>
 
-      <div className="inline-block md:flex max-w-7xl m-auto sm:pl-4">
+      <div className="inline-block md:flex max-w-6xl m-auto sm:pl-4">
         <div className="pt-24 " data-aos="fade-up" data-aos-duration="2000">
           <div className="pb-6 text-center md:text-left text-sm text-gray2">
             Hi, My name is Rimi
