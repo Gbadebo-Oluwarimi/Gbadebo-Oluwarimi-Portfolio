@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 export default function Home() {
   useEffect(() => {
     AOS.init({
@@ -13,10 +12,7 @@ export default function Home() {
     });
   }, []);
   return (
-    <main
-      style={gellix11.style}
-      className="main min-h-screen text-xl overflow-hidden"
-    >
+    <main className="main min-h-screen text-xl overflow-hidden">
       <nav className=" max-w-7xl m-auto pt-8 flex align-middle text-center items-center justify-between">
         <div data-aos="fade-up" className="text-2xl  pl-4 md:p-0 ">
           Gbadebo <span className="text-lightgreen">Oluwarimi</span>
@@ -25,7 +21,6 @@ export default function Home() {
         <ul
           className="justify-between hidden md:flex text-sm overflow-hidden w-1/3 "
           data-aos="fade-up"
-          style={gellix11.style}
         >
           <li>About me </li>
           <li>Experience</li>
@@ -33,11 +28,7 @@ export default function Home() {
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-        <button
-          style={gellix11.style}
-          className="text-sm p-3 "
-          data-aos="fade-up"
-        >
+        <button className="text-sm p-3 " data-aos="fade-up">
           Resume
         </button>
       </nav>
@@ -48,18 +39,12 @@ export default function Home() {
             Hi, My name is Rimi
             <div className="   w-20 h-1 bg-lightgreen mt-2"></div>
           </div>
-          <div
-            className="text-center md:text-left text-3xl md:text-6xl"
-            style={mattermedium.style}
-          >
+          <div className="text-center md:text-left text-3xl md:text-6xl">
             Software Engineer, Network <br />
             <span className="text-lightgreen">Architect</span> & System
             Maintainer
           </div>
-          <div
-            className="pt-8 max-w-xl text-center  pb-5 lg:pl-0 md:text-left text-sm text-gray2"
-            style={gellix11.style}
-          >
+          <div className="pt-8 max-w-xl text-center  pb-5 lg:pl-0 md:text-left text-sm text-gray2">
             As a committed backend engineer, I excel in building and sometimes
             redefining outstanding digital infrastructures. My current pursuit
             involves leveraging my skills to develop efficient, user-focused
@@ -172,7 +157,7 @@ export default function Home() {
       <div className="pt-20 max-w-6xl m-auto pl-4">
         <div className=" block md:flex gap-20">
           <div className="pb-4" data-aos="fade-left">
-            <div className="text-4xl pb-4" style={gellix13.style}>
+            <div className="text-4xl pb-4">
               About Me
               <div className="w-20 h-1 bg-lightgreen mt-2"></div>
             </div>
@@ -215,7 +200,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-20 max-w-8xl m-auto">
-          <div className="text-4xl pb-4 " style={gellix13.style}>
+          <div className="text-4xl pb-4 ">
             Work Experience
             <div className="w-32 h-1 bg-lightgreen mt-2"></div>
           </div>
@@ -335,10 +320,7 @@ export default function Home() {
                       Kanban Like Application
                     </span>
                     <div className="text-3xl font-semibold">Ideahub</div>
-                    <div
-                      className="text-lg tracking-tighter mt-5"
-                      style={mattermedium.style}
-                    >
+                    <div className="text-lg tracking-tighter mt-5">
                       I crafted a personalized Kanban app to manage and track my
                       ideas, addressing the challenge of unfinished projects.
                       This tool reflects my commitment to continuous
@@ -389,7 +371,7 @@ export default function Home() {
                     <div className="text-3xl font-semibold">Bitsniper</div>
                     <div
                       className="text-lg tracking-tighter mt-5"
-                      style={mattermedium.style}
+                      // style={mattermedium.style}
                     >
                       I played a crucial role in revamping Bitsnipers website to
                       cater to the Web 3 gaming audience. The redesign focused
@@ -442,7 +424,7 @@ export default function Home() {
                     <div className="text-3xl font-semibold">Picotel </div>
                     <div
                       className="text-lg tracking-tighter mt-5"
-                      style={mattermedium.style}
+                      // style={mattermedium.style}
                     >
                       At Picotel Network Solutions, I started as a Network
                       Engineer and later became a Full Stack Engineer. I
@@ -493,7 +475,7 @@ export default function Home() {
                     <div className="text-3xl font-semibold">The Forum</div>
                     <div
                       className="text-lg tracking-tighter mt-5"
-                      style={mattermedium.style}
+                      // style={mattermedium.style}
                     >
                       I assisted with backend development at a startup,
                       deploying scalable systems and optimizing algorithms for

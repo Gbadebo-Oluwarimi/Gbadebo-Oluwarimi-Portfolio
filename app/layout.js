@@ -7,7 +7,7 @@ const mattermedium = localFont({ src: "../fonts/Matter-Medium.ttf" });
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: "Gbadebo-Oluwarimi",
   description: "Gbadebo Oluwarimi Profile Site",
 };
@@ -15,7 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} style={gellix11.style}>
+        {children}
+      </body>
     </html>
   );
 }
